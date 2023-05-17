@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  color: #252525;
+  background-color: whitesmoke;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.todolist__main {
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+  background-color: white;
+}
+input[type="text"] {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  outline: none;
+  border-bottom: 2px solid #252525;
+}
+input[type="submit"] {
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 5px;
+  color: whitesmoke;
+  background-color: #252525;
+  cursor: pointer;
+}
+.item {
+  display: flex;
+  gap: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+form.insert {
+  margin-top: 1vh;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  gap: 10px;
+}
+button.customsubmit {
+  background-color: #252525;
+  color: whitesmoke;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
+form.categories {
+  display: flex;
+  gap: 10px;
+}
